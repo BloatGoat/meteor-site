@@ -34,3 +34,7 @@ a {
   transform: skew(-50deg) translateX(-50%);
   background: rgba(33, 224, 200, 0.5);
 }
+
+::selection {
+  @apply bg-persian-green-600;
+}
