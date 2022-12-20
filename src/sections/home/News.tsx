@@ -9,7 +9,7 @@ type NewsSectionProps = {
 
 const NewsSection = forwardRef<HTMLElement, NewsSectionProps>((props, ref) => {
   return (
-    <section className="bg-blackground2 pb-24" id="updates" ref={ref}>
+    <section className="bg-rich-black pb-24" id="updates" ref={ref}>
       <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
         <div className="max-w-screen-md mb-8 lg:mb-16">
           <SectionTitle title="Latest news" />

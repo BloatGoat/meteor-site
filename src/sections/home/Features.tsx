@@ -9,7 +9,7 @@ type FeaturesSectionProps = {
 const FeaturesSection = forwardRef<HTMLElement, FeaturesSectionProps>(
   (props, ref) => {
     return (
-      <section className="bg-blackground" id="features" ref={ref}>
+      <section className="bg-vampire-black" id="features" ref={ref}>
         <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
           <div className="max-w-screen-md mb-8 lg:mb-16">
             <SectionTitle title="Features" />

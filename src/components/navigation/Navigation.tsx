@@ -12,7 +12,7 @@ import { RefObject, useState } from 'react';
 const Navigation = ({ sectionRefs }: { sectionRefs: RefObject<Element>[] }) => {
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
   return (
-    <nav className="bg-dark text-white px-2 py-2 md:py-0 fixed w-full z-20 top-0 left-0">
+    <nav className="bg-jet-black text-white px-2 py-2 md:py-0 fixed w-full z-20 top-0 left-0">
       <div className="container flex flex-wrap items-center justify-between mx-auto max-w-screen-xl px-4">
         <Link href="/" className="flex items-center">
           <Image src={logo} width={36} height={36} alt="Meteor Logo" />
