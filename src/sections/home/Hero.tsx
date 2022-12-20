@@ -6,7 +6,7 @@ import { forwardRef } from 'react';
 
 const HeroSection = forwardRef<HTMLElement>((props, ref) => {
   return (
-    <section className="bg-hero text-white bg-cover" ref={ref}>
+    <section className="bg-hero text-white bg-cover bg-jet-black" ref={ref}>
       <div className="grid max-w-screen-xl px-4 py-5 mx-auto pt-28 lg:pb-12">
         <div className="mr-auto place-self-center lg:col-span-7">
           <h1 className="max-w-2xl mb-4 text-xl font-extrabold tracking-tight leading-none md:text-xl xl:text-4xl">
