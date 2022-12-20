@@ -20,9 +20,7 @@ const NewsBadge: React.FC<NewsBadgeProps> = ({ type }) => {
     }
   };
   return (
-    <span
-      className={`${getBadgeColor()} text-sm font-medium mr-2 px-2.5 py-0.5 rounded`}
-    >
+    <span className={`${getBadgeColor()} text-sm mr-2 px-2.5 py-0.5 rounded`}>
       {type}
     </span>
   );
