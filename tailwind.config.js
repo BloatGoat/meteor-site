@@ -23,7 +23,7 @@ module.exports = {
         'discord-hover': '#5e6ecd',
       },
       backgroundImage: {
-        hero: "url('../../public/background.png')",
+        hero: "url('../../public/hero-background.png')",
       },
     },
   },
