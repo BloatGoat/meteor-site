@@ -23,7 +23,24 @@ export default function Home({
   return (
     <>
       <Head>
-        <title>Meteor - Open source Old School Runescape client</title>
+        <meta
+          name="title"
+          content="Meteor - Open source Old School Runescape client"
+        />
+        <meta
+          name="description"
+          content="Unleash your full potential in Oldschool Runescape with Meteor, the open source client featuring overpowered plugins. Customize and modify to suit your needs. Try it now and dominate the game."
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Meteor - Open source Old School Runescape client"
+        />
+        <meta property="og:url" content="https://www.meteor-client.com/" />
+        <meta
+          property="og:description"
+          content="Meteor, the open-source client featuring overpowered plugins. "
+        />
       </Head>
       <Navigation sectionRefs={[heroRef, featuresSectionRef, newsSectionRef]} />
       <HeroSection ref={heroRef} />
